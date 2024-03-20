@@ -1,0 +1,39 @@
+#painel-sobre{
+	margin-top: 20px;
+}
+#container{
+	width: auto;
+    height: auto;
+
+}
+.titulo-depoimentos{
+	background-color: teal;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+.contato-select, 
+.grupo-radio { 
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contato-select {
+    float: right;
+}
+
+.grupo-radio .radio:first-child {
+    margin-top: 0;
+}
+footer{
+	background: #333;
+	color: #fff;
+	padding: 20px;
+	margin-top: 10px;
+}
+footer address:last-child {
+	margin-bottom: 0;
+   }
