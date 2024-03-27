@@ -6,6 +6,34 @@
     height: auto;
 
 }
+html,
+body{
+	height: 100%;
+}
+header{
+	background-image: url(BeachClass.jpg);
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+	height: 100%;
+
+}
+.dase-banner h1 {
+    margin-top: 0;
+}
+.dase-banner-top{
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 1.5em;
+	max-width: 320px;
+	border-radius: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: 0.3s;
+	
+}
 .titulo-depoimentos{
 	background-color: teal;
 	padding-top: 20px;
@@ -37,3 +65,25 @@ footer{
 footer address:last-child {
 	margin-bottom: 0;
    }
+
+@media(min-width: 768px) {
+    .projetos-responsivo {
+    width: 50%;
+    float: left;
+    }
+	#paineis-sobre {
+		margin-top: 0;
+	}
+}
+@media(min-width: 992px){
+	.dase-banner-top{
+		left: 0;
+		transform: translate(0%, -80%);
+		width: 50%;
+	}
+	.daseBanner-Wrapper {
+		position: relative;
+		height: 100%;
+	}
+	
+}

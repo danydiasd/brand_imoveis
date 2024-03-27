@@ -18,9 +18,9 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">DAS Imóveis</a>
+                    <a class="navbar-brand" href="#">DASE Imóveis</a>
                 </div>
-                <div class="collapse navbar-collapse" id="navbar-collapse">
+                <div class="collapse navbar-collapse" id="collapse-navbar">
                     <ul class="nav navbar-nav">
                         <li><a href="#sobre-nos">Sobre Nós</a></li>
                         <li><a href="#nossos-produtos">Nossos Projetos</a></li>
@@ -32,56 +32,66 @@
                 </div>
             </div>
         </nav>
+        <div class="container daseBanner-Wrapper">
+            <div class ="dase-banner-top" >
+                <h1>DASE Imóveis</h1> 
+                <p> Parceira de divulgação imobiliária</p>
+                <a href="#contato" class="btn btn-primary btn-lg">Contate-nos agora</a>
+            </div>
+        </div>
+        
     </header>
 
     <section class="container-fluid" id="sobre-nos">
-        <h2>Sobre Nós</h2>
-        <img src="img/logo.jpg">
-        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingOne">
-                    <h4 class="panel-title">
-                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> 
-                         Desde 2021
-                      </a>
-                    </h4>
-                </div>
-                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                    <div class="panel-body">
-                        A Das imóveis está atuando no mercado
-                    </div>
-                </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingOne">
-                    <h4 class="panel-title" >
-                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                         Nossos Serviços
+        <div class="row">
+            <h2>Sobre Nós</h2>
+            <img class="img-responsive projetos-responsivo" src="img/logo.jpg">
+            <div class="panel-group projetos-responsivo" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> 
+                            Desde 2021
                         </a>
-                    </h4>
-                </div>
-                <div  id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                    <div class="panel-body">
-                        Vendemos Casas e lotes de acordo com a sua necessidade
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                            A Das imóveis está atuando no mercado
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingThree">
-                    <h4 class="panel-title">
-                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                            Fale conosco
-                        </a>
-
-                    </h4>
-                </div>
-                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                    <div class="panel-body">  
-                        Temos nossos contatos.Cel. XXXXXXXX
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title" >
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Nossos Serviços
+                            </a>
+                        </h4>
+                    </div>
+                    <div  id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                            Vendemos Casas e lotes de acordo com a sua necessidade
+                        </div>
                     </div>
                 </div>
-            </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                Fale conosco
+                            </a>
 
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body">  
+                            Temos nossos contatos.Cel. 
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </section>
 
@@ -94,51 +104,60 @@
 
     <section class="container-fluid" id="nossos-produtos">
         <h2>Nossos Produtos</h2>
-        <figure class="thumbnail">
-            <img class="img-responsive" src="img/RefugiodosCentos.jpg" alt="Refugio dos ventos">
-            <div class="caption">
-            <h3>Casas no Cumbuco de alto padrão - Refúgio dos ventos </h3>
-            <p>Casas em cond. Alto padrão na região do Cumbuco- Caucaia</p>
-            <p><a href="#" class="btn btn-primary" role="button">Ver detalhes</a> </p>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-lg-3 col-md-4">
+                <figure class="thumbnail">
+                    <img class="img-responsive" src="img/RefugiodosCentos.jpg" alt="Refugio dos ventos">
+                    <div class="caption">
+                    <h3>Casas no Cumbuco de alto padrão - Refúgio dos ventos </h3>
+                    <p>Casas em cond. Alto padrão na região do Cumbuco- Caucaia</p>
+                    <p><a href="#" class="btn btn-primary" role="button">Ver detalhes</a> </p>
+                    </div>
+                </figure>
             </div>
-        </figure>
-
-        <figure class="thumbnail">
-            <img class="img-responsive" src="img/casa_vila_recanto.jpg" alt="Green Residence - Casas alto padrão">
-            <div class="caption">
-            <h3>Casas Cond. Alto padrão - Green Residence </h3>
-            <p>casas com 3 quartos, garagem e demais assuntos eluposrum #4ifjj&lkajp alt end osft</p>
-            <p><a href="#" class="btn btn-primary" role="button">Ver detalhes</a> </p>
+            
+            <div class="col-xs-12 col-sm-6 col-lg-3 col-md-4">
+                <figure class="thumbnail">
+                    <img class="img-responsive" src="img/casa_vila_recanto.jpg" alt="Green Residence - Casas alto padrão">
+                    <div class="caption">
+                    <h3>Casas Cond. Alto padrão - Green Residence </h3>
+                    <p>casas com 3 quartos, garagem e demais assuntos eluposrum #4ifjj&lkajp alt end osft</p>
+                    <p><a href="#" class="btn btn-primary" role="button">Ver detalhes</a> </p>
+                    </div>
+                </figure>
             </div>
-        </figure>
-
-
-        <figure class="thumbnail">
-            <img class="img-responsive" src="img/BeachClass.jpg" alt="Terrenos em boa localização">
-            <div class="caption">
-            <h3>Lotes a venda na Região do Cumbuco</h3>
-            <p>Lotes próximo a praia, 8x25 m ... </p>
-            <p><a href="#" class="btn btn-primary" role="button">Ver detalhes</a> </p>
+            
+            <div class="col-xs-12 col-sm-6 col-lg-3 col-md-4">
+                <figure class="thumbnail">
+                    <img class="img-responsive" src="img/BeachClass.jpg" alt="Terrenos em boa localização">
+                    <div class="caption">
+                    <h3>Lotes a venda na Região do Cumbuco</h3>
+                    <p>Lotes próximo a praia, 8x25 m ... </p>
+                    <p><a href="#" class="btn btn-primary" role="button">Ver detalhes</a> </p>
+                    </div>
+                </figure>
             </div>
-        </figure>
-
-        <figure class="thumbnail">
-            <img class="img-responsive" src="img/VilaVento.jpg" alt="Residencial VilaVento">
-            <div class="caption">
-            <h3>Residencial Vila Vento - Região do Cumbuco</h3>
-            <p>Casas em Residencial, com área de lazer, gourmet e playground.</p>
-            <p><a href="#" class="btn btn-primary" role="button">Ver detalhes</a> </p>
+            <div class="col-xs-12 col-sm-6 col-lg-3 col-md-4">
+                <figure class="thumbnail">
+                    <img class="img-responsive" src="img/VilaVento.jpg" alt="Residencial VilaVento">
+                    <div class="caption">
+                    <h3>Residencial Vila Vento - Região do Cumbuco</h3>
+                    <p>Casas em Residencial, com área de lazer, gourmet e playground.</p>
+                    <p><a href="#" class="btn btn-primary" role="button">Ver detalhes</a> </p>
+                    </div>
+                </figure>
             </div>
-        </figure>
-
-        <figure class="thumbnail">
-            <img class="img-responsive" src="img/TulipaResidence.jpg" alt="Residencial Tulipa">
-            <div class="caption">
-            <h3>Residencial Tulipa </h3>
-            <p>Casas bem projetadas, com garagem, 3 quartos - Região Arianopolis - Caucaia</p>
-            <p><a href="#" class="btn btn-primary" role="button">Ver detalhes</a> </p>
-            </div>
-        </figure>
+            <div class="col-xs-12 col-sm-6 col-lg-3 col-md-4">
+                <figure class="thumbnail">
+                    <img class="img-responsive" src="img/TulipaResidence.jpg" alt="Residencial Tulipa">
+                    <div class="caption">
+                    <h3>Residencial Tulipa </h3>
+                    <p>Casas bem projetadas, com garagem, 3 quartos - Região Arianopolis - Caucaia</p>
+                    <p><a href="#" class="btn btn-primary" role="button">Ver detalhes</a> </p>
+                    </div>
+                </figure>
+            </div>           
+        </div>
     </section>    
    
     <section id="depoimentos">
@@ -198,61 +217,68 @@
             </a>
         </div>
     </section>
-    
-    <section class="container" id="video">
-        <h2>Vídeo Institucional</h2>
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/i_3Py1Aygel" frameborder="0" allowfullscreen></iframe>
-        </div>  
-    </section>
-    
-    <section id="fale-conosco" class="container">
-        <h2>Contato</h2>
-        <h4>Entre em contato conosco</h4>
-        <form>
-            <div class="form-group">
-                <label for="contato-name">Nome:</label>
-                <input id="contato-name" class="form-control"  type="text" placeholder="Seu Nome">
-            </div>
-            <div class="form-group">
-                <label for="contato-telefone">Telefone:</label>
-                <input id="contato-telefone" class="form-control"  type="number" placeholder="( ) 9999-9999" >
-            </div>
-            <div class="form-group">
-                <label for="contato-email">Email:</label>
-                <div class="input-group">
-                    <div class="input-group-addon">@</div>
-                        <input id="contato-email" class="form-control" type="email" placeholder="Seu email">
-                </div>
-            </div>
-            <div class="form-group">
-                <div class="grupo-radio">
-                    <div class="radio">
-                        <label>
-                            <input name="tipo-pessoa" class="form-control" value="fisica" type="radio" checked > 
-                            Pessoa Física
-                        </label>
+    <div class="container">
+        <div class="row">
+                <!--Video Embed -->
+            <section id="video" class="col-sm-6 col-md-4 ">
+                <h2>Vídeo Institucional</h2>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/i_3Py1Aygel" frameborder="0" allowfullscreen></iframe>
+                </div>  
+            </section>
+            <!--Form contact me -->
+            <section id="fale-conosco" class="col-sm-6 col-md-4 ">
+                <h2>Contato</h2>
+                <h4>Entre em contato conosco</h4>
+                <form>
+                    <div class="form-group">
+                        <label for="contato-name">Nome:</label>
+                        <input id="contato-name" class="form-control"  type="text" placeholder="Seu Nome">
                     </div>
-                    <div class="radio">
-                        <label> 
-                            <input name="tipo-pessoa" class="form-control" value="juridica" type="radio" >
-                            Pessoa Jurídica
-                            </label>
+                    <div class="form-group">
+                        <label for="contato-telefone">Telefone:</label>
+                        <input id="contato-telefone" class="form-control"  type="number" placeholder="( ) 9999-9999" >
                     </div>
-                </div>
-            </div>
-            <select class="contato-select form-control" name="tipo-solicitacao">
-                <option value="disabled selected">Tipo de Imóvel</option>
-                <option value="casa">Casa</option>
-                <option value="apartamento">Apartamento</option>
-                <option value="lote">Lote</option>
-            </select>
-            
-            <button class="btn btn-primary">Enviar</button>
-
-        </form>
-
-    </section>
+                    <div class="form-group">
+                        <label for="contato-email">Email:</label>
+                        <div class="input-group">
+                            <div class="input-group-addon">@</div>
+                                <input id="contato-email" class="form-control" type="email" placeholder="Seu email">
+                        </div>
+                    </div>
+                   
+                    <div class="grupo-radio">
+                        <div class="radio">
+                            <label>
+                                <input  type="radio" name="tipo-pessoa"  value="fisica" checked >
+                                Pessoa Física 
+                            </label>      
+                        </div>
+                        <div class="radio">
+                            <label> 
+                                <input type="radio"  name="tipo-pessoa"  value="juridica" >
+                                Pessoa Jurídica                    
+                            </label>     
+                        </div>
+                    </div>
+                    
+                    <select class="contato-select form-control" name="tipo-solicitacao">
+                        <option value="disabled selected">Tipo de Imóvel</option>
+                        <option value="casa">Casa</option>
+                        <option value="apartamento">Apartamento</option>
+                        <option value="lote">Lote</option>
+                    </select>
+                    
+                    <button class="btn btn-primary">Enviar</button>
+        
+                </form>
+        
+            </section>
+        </div>    
+    </div>
+   
+    
+   
 
     <footer>
         <address>
@@ -266,7 +292,8 @@
         </address>
     </footer>
 
-    <script src="jquery.js"></script>
+    <script src="js/jquery.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/navbar-animation-fix.js"></script>
 </body>
 </html>
